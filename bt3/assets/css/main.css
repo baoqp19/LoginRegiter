@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    min-width: 100vh;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: nowrap;
+    margin-top: 150px;
+}
+
+.inner{
+    background-color: aqua;
+}
+.inner_item{
+    padding: 100px;
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+}
+
+.inner_item div{
+    margin-right: 50px; 
+}
+
+.none_1 .quich_item a{
+    text-decoration: none;
+}
+
+.none_2 .none_item a{
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+}
+.none_item{
+    margin: 10px;
+}
+.about-us h2{
+    margin-bottom: 10px;
+}
+.herder{
+    
+}
+.quich-link{
+   
+}
+
+.quich_item{
+    display: flex; /* Sử dụng flexbox */
+    justify-content: space-between;
+}
+
+.copyright{
+    height: 40px;
+    display: flex;
+    justify-content: center; /* Sử dụng justify-content thay vì justify-items */
+    align-items: center;
+
+    border: 1px solid darkslategray;
+}
